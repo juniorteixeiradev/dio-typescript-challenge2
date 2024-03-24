@@ -6,7 +6,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer";
 export default function Cards() {
   return (
-    <Card justify="center" align="center" p='0.5rem'>
+    <Card justify="center" align="center" p="0.5rem">
       <CardHeader>
         <Header />
       </CardHeader>
@@ -18,7 +18,7 @@ export default function Cards() {
           <Buttons></Buttons>
         </Flex>
       </CardBody>
-      <Footer/>
+      <Footer />
     </Card>
   );
 }

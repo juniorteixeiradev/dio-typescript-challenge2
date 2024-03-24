@@ -5,6 +5,8 @@ describe("Login component test", () => {
     const mockAlert = jest.fn();
     login(mockAlert);
 
-    expect(mockAlert).toHaveBeenCalledWith("Logado com sucesso, seja bem vindo !");
+    expect(mockAlert).toHaveBeenCalledWith(
+      "Logado com sucesso, seja bem vindo !",
+    );
   });
 });
